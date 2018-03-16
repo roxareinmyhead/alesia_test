@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title Super Secure Search
+    meta( charset="utf-8" )
+    script( src="https://code.jquery.com/jquery-3.2.1.min.js" )
+    script( src="js/search.js" )
+    link( rel="stylesheet", href="css/search.css" )
+  body
+    div#content
+      div#title Super Secure Search
+      div#searchBar
+        input( type="text", id="data", name="data", placeholder="Search for something already!" )
+        input( type="submit", id="searchSubmit", value="GO!" )
+      div#result
+      div#recent Here's what people are searching for:
+        br
+        != recent

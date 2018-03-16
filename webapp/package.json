@@ -1,0 +1,14 @@
+{
+  "name": "rbtraining",
+  "version": "0.0.1",
+  "description": "Red & Blue Training Platform Admin Console",
+  "author": "AM-ISO <am-iso@mail.rakuten.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "mysql": "^2.13.0"
+  }
+}
